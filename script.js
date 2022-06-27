@@ -34,8 +34,8 @@ function updateTime() {
 
     currentTime.innerText=`${hour}:${minutes}:${seconds}`;
     
-//     check if the alarmList includes the current time , "now"
-//     if yes, ringing() is called
+//     check if the alarmList includes the current time 
+//     if yes, Sound() is called
     if(alarmList.includes(TIMENOW) ){
         Sound(TIMENOW);
     } 
